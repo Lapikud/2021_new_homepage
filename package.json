@@ -1,0 +1,76 @@
+{
+  "name": "SiemensKitchenGuide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Siemens Kitchen Guide Web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/adm_dev/siemens-kitchen-guide-vue.js.git"
+  },
+  "scripts": {
+    "lint": "npx eslint ./src --fix",
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-router": "^4.0.0-0",
+    "vue-slick-carousel": "^1.0.6",
+    "vuex": "^4.0.0-0",
+    "vuex-router-sync": "^5.0.0",
+    "postcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli": "^4.5.11",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-vuex": "^4.5.11",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "postcss": "^8.0.0",
+    "vue-carousel": "^0.18.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "standard"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "plugins": [
+      "vue"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

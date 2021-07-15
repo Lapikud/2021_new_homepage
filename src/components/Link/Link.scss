@@ -1,0 +1,8 @@
+.c-link {
+    @include t6;
+    color: orange;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    transition: $default-transition;
+}

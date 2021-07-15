@@ -1,0 +1,30 @@
+.c-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 40px;
+    border: 1px solid orange;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-align: center;
+    transition: $default-transition;
+    cursor: pointer;
+    @include s2;
+    &--primary {
+        background: orange;
+        color: $snow;
+        &:hover {
+            background: $teal-extralight;
+            color: $snow;
+            border-color: $teal-extralight;
+        }
+    }
+    &--secondary {
+        background: transparent;
+        color: $snow;
+        border-color: $snow;
+        &:hover {
+            border-color: $teal-extralight;
+            color: $teal-extralight;
+        }
+    }
+}

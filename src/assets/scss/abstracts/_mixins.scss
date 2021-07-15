@@ -1,0 +1,53 @@
+//Media query
+@mixin mq($point, $query1: min, $query2: width) {
+	@media screen and (#{$query1}-#{$query2}: $point) {
+		@content;
+	}
+}
+
+//Typography
+@mixin t1 {
+    font-size: 35px;
+    line-height: 40px;
+    @include mq($screen-m, max) {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@mixin t2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+@mixin t3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+@mixin t4 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+@mixin t5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@mixin t6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin s1 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@mixin s2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+

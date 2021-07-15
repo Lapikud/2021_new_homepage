@@ -1,0 +1,38 @@
+/* => Breakpoints
+/* ------------------------------------------------------------------------------ */
+
+$screen-s: 750px;
+$screen-m: 900px;
+$screen-l: 1600px;
+$screen-xl: 1920px;
+
+/* => Colors
+/* ------------------------------------------------------------------------------ */
+$snow: #fff !default;
+$black: #000 !default;
+$teal-extralight: #a5e1e1 !default;
+$teal-light: #41AAAA !default;
+$stone-extralight: #becdd7 !default;
+$stone-light: #879BAA !default;
+$yellow-light: #FFB900 !default;
+$stone-1: #2D373C !default;
+$stone-2: #555F69 !default;
+$stone-8: #CDD9E1 !default;
+$stone-9: #DFE6ED !default;
+$stone-18: #EBF0F5 !default;
+$stone-dark: #3C464B !default;
+$stone-dark-15: #E2E3E4 !default;
+$stone-dark-75: #6D7478 !default;
+
+$body-text: $stone-1 !default;
+
+$border-gray: #eee !default;
+
+/* => Transition
+/* ------------------------------------------------------------------------------ */
+$default-transition: all 0.2s ease-in-out;
+
+/* => Icons
+/* ------------------------------------------------------------------------------ */
+
+$icon-chevron-down: url("data:image/svg+xml,%3Csvg fill='none' height='9' viewBox='0 0 12 9' width='12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m6 8.13281-6-6 1.26562-1.265622 4.73438 4.101562 4.7344-4.101562 1.2656 1.265622z' fill='%23879baa'/%3E%3C/svg%3E");

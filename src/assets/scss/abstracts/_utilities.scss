@@ -1,0 +1,20 @@
+.u-flex {
+    display: flex;
+}
+
+.u-inline-flex {
+    display: inline-flex;
+}
+
+.u-h1 {
+    @include t1;
+    color: $snow;
+}
+
+.u-h2 {
+    @include t2;
+    color: $snow;
+    @include mq($screen-m, max) {
+        @include t4;
+    }
+}
