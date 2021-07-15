@@ -4,9 +4,6 @@
             <router-link :to="{ path: `/` }">
                 <img class="c-header__logo" src='@/assets/images/logo.svg'/>
             </router-link>
-            <div class="c-header__right">
-                <v-language-switcher />
-            </div>
         </div>
     </header>
 </template>

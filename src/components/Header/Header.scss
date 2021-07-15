@@ -20,11 +20,14 @@
     @include mq($screen-m, max) {
         &__logo {
             width: 150px;
+            height: auto;
         }
     }
     @include mq($screen-s, max) {
         &__logo {
             width: 120px;
+            height: auto;
+
         }
     }
 }
