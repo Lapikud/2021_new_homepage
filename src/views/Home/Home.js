@@ -1,5 +1,6 @@
 import Button from '@/components/Button/Button.vue'
 import TextMedia from '@/components/TextMedia/TextMedia.vue'
+import ImageSlider from '@/components/ImageSlider/ImageSlider.vue'
 
 export default {
   name: 'Home',
@@ -9,6 +10,7 @@ export default {
   },
   components: {
     'v-button': Button,
-    'v-textmedia': TextMedia
+    'v-textmedia': TextMedia,
+    'v-image-slider': ImageSlider
   }
 }

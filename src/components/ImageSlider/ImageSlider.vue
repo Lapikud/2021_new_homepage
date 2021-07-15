@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="c-slider">
     <transition-group name="fade" tag="div">
-      <div class="wtf" v-for="i in [currentIndex]" :key="i">
+      <div v-for="i in [currentIndex]" :key="i">
         <img :style="`height: ${height}`" :src="currentImg" />
       </div>
     </transition-group>

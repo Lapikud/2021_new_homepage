@@ -18,11 +18,11 @@
     }
     &__text-container {
         flex: 1;
-        background-color: $stone-dark;
+        background-color: $white;
     }
     &__text {
         padding: 40px;
-        color: $snow;
+        color: $white;
     }
     &__heading {
         @include t2;

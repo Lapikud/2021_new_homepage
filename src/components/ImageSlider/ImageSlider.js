@@ -3,7 +3,6 @@ import Icon from '@/components/Icon/Icon.vue'
 export default {
   name: 'Slider',
   props: {
-    images: Array,
     height: String
   },
   components: {
@@ -17,13 +16,14 @@ export default {
     }
   },
   mounted () {
-    this.imageArray = this.images.map(({ filename }) => 'https://kitchen-guide.admdev.eu/backend/uploads/' + filename)
-    console.log(this.height)
+    /* this.imageArray = this.images.map(({ filename }) => '@/assets/images/slideshow/' + filename) */
+    this.imageArray = this.importAll(require.context('@/assets/images/slideshow/', true, /\.jpg$/))
+    console.log(this.imageArray)
   },
 
   methods: {
     startSlide: function () {
-      this.timer = setInterval(this.next, 9000)
+      this.timer = setInterval(this.next, 3000)
     },
 
     next: function () {
@@ -31,9 +31,12 @@ export default {
     },
     prev: function () {
       this.currentIndex -= 1
+    },
+
+    importAll: function (r) {
+      return r.keys().map(r)
     }
   },
-
   computed: {
     currentImg: function () {
       return this.imageArray[Math.abs(this.currentIndex) % this.imageArray.length]

@@ -11,20 +11,20 @@
     @include s2;
     &--primary {
         background: orange;
-        color: $snow;
+        color: $white;
         &:hover {
-            background: $teal-extralight;
-            color: $snow;
-            border-color: $teal-extralight;
+            background: $brand-orange;
+            color: $white;
+            border-color: $brand-orange;
         }
     }
     &--secondary {
         background: transparent;
-        color: $snow;
-        border-color: $snow;
+        color: $white;
+        border-color: $white;
         &:hover {
-            border-color: $teal-extralight;
-            color: $teal-extralight;
+            border-color: $brand-orange;
+            color: $brand-orange;
         }
     }
 }

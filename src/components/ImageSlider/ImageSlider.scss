@@ -47,5 +47,9 @@ img {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(65, 170, 170, 0.6);
+  background-color: $brand-orange;
+}
+
+.c-slider {
+  position: relative;
 }

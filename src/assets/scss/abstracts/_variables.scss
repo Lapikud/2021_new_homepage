@@ -8,23 +8,24 @@ $screen-xl: 1920px;
 
 /* => Colors
 /* ------------------------------------------------------------------------------ */
-$snow: #fff !default;
-$black: #000 !default;
-$teal-extralight: #a5e1e1 !default;
-$teal-light: #41AAAA !default;
-$stone-extralight: #becdd7 !default;
-$stone-light: #879BAA !default;
-$yellow-light: #FFB900 !default;
-$stone-1: #2D373C !default;
-$stone-2: #555F69 !default;
-$stone-8: #CDD9E1 !default;
-$stone-9: #DFE6ED !default;
-$stone-18: #EBF0F5 !default;
-$stone-dark: #3C464B !default;
-$stone-dark-15: #E2E3E4 !default;
-$stone-dark-75: #6D7478 !default;
+$white: #fff !default;
+$brand-black: #1e1e1e !default;
+$brand-orange:  #F0941D !default;
+// $brand-orange: #a5e1e1 !default;
+// $teal-light: #41AAAA !default;
+// $stone-extralight: #becdd7 !default;
+// $stone-light: #879BAA !default;
+// $yellow-light: #FFB900 !default;
+// $stone-1: #2D373C !default;
+// $stone-2: #555F69 !default;
+// $stone-8: #CDD9E1 !default;
+// $stone-9: #DFE6ED !default;
+// $stone-18: #EBF0F5 !default;
+// $stone-dark: #3C464B !default;
+// $stone-dark-15: #E2E3E4 !default;
+// $stone-dark-75: #6D7478 !default;
 
-$body-text: $stone-1 !default;
+$body-text: $white !default;
 
 $border-gray: #eee !default;
 

@@ -8,12 +8,12 @@
 
 .u-h1 {
     @include t1;
-    color: $snow;
+    color: $white;
 }
 
 .u-h2 {
     @include t2;
-    color: $snow;
+    color: $white;
     @include mq($screen-m, max) {
         @include t4;
     }

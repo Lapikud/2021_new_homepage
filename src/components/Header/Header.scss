@@ -1,9 +1,12 @@
 .c-header {
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #3C464B;
+    background-color: $brand-orange;
+    &__logo {
+        height: auto;
+        width: 150px;
+        padding: 16px 0;
+    }
     &__right {
         display: flex;
         flex-direction: column;
@@ -17,17 +20,65 @@
         display: flex;
         justify-content: space-between;
     }
-    @include mq($screen-m, max) {
-        &__logo {
-            width: 150px;
-            height: auto;
-        }
-    }
-    @include mq($screen-s, max) {
-        &__logo {
-            width: 120px;
-            height: auto;
+    // @include mq($screen-m, max) {
+    //     &__logo {
+    //         width: 150px;
+    //     }
+    // }
+    // @include mq($screen-s, max) {
+    //     &__logo {
+    //         width: 120px;
 
+    //     }
+    // }
+}
+
+.c-menu {
+    display: flex;
+    &__link-container {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 700;
+        align-items: center;
+        position: relative;
+        
+    }
+    &__link {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        &::after { 
+            content: "";
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 3px;
+            bottom: calc(50% - 20px);
+            left: 50%;
+            transform: translateX(-50%);
+            transition: $default-transition;
+        } 
+        &.router-link-active {
+            color: $brand-black;
+            &::after { 
+                content: "";
+                position: absolute;
+                display: block;
+                background-color: $brand-black;
+                height: 3px;
+                width: 80%;
+                bottom: calc(50% - 20px);
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        &:hover {
+            transition: $default-transition;
+            background-color: rgba( $white, 0.2);
         }
     }
+
 }
