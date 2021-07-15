@@ -19,26 +19,23 @@ Probably nodejs
 
 ## General setup and useful commands
 
-- ### Project setup
-
+Install all dependencies
 ```
 npm install
 ```
 
-- ### Compiles and hot-reloads for development
-
+## Compile and hot-reload for development
 ```
 npm run serve
 ```
 
-- ### Compiles and minifies for production
-
-```
-npm run build
-```
-
-- ### Lints and fixes files
-
+## Lint and fix files
+**NB!** Run (and fix!) before commit!!!
 ```
 npm run lint
+```
+
+## Compile and minify for production
+```
+npm run build
 ```
