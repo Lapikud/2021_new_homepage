@@ -1,11 +1,11 @@
 {
-  "name": "SiemensKitchenGuide",
+  "name": "Lapikud",
   "version": "0.1.0",
   "private": true,
-  "description": "Siemens Kitchen Guide Web",
+  "description": "Lapikud website",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/adm_dev/siemens-kitchen-guide-vue.js.git"
+    "url": "git+https://github.com/Lapikud/2021_new_homepage"
   },
   "scripts": {
     "lint": "npx eslint ./src --fix",
