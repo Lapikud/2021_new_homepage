@@ -9,3 +9,22 @@
         padding-right: 20px;
     }
 }
+
+.c-section {
+    padding: 60px 0;
+    color: $white;
+    &--white {
+        background: $white;
+        color: $brand-black;
+    }
+    &--center {
+        text-align: center;
+    }
+    &__row {
+        &:not(:last-child) {
+            margin-bottom: 48px;
+        }
+        width: 70%;
+        margin: 0 auto;
+    }
+}

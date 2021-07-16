@@ -17,8 +17,7 @@ export default {
   },
   mounted () {
     /* this.imageArray = this.images.map(({ filename }) => '@/assets/images/slideshow/' + filename) */
-    this.imageArray = this.importAll(require.context('@/assets/images/slideshow/', true, /\.jpg$/))
-    console.log(this.imageArray)
+    this.imageArray = this.importAll(require.context('@/assets/images/slideshow/', true, /\.jpg|gif|png|svg$/))
   },
 
   methods: {

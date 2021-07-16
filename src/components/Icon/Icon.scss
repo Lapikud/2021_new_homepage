@@ -22,13 +22,16 @@
         height: 40px;
     }
     &--xxl {
-        width: 96px;
-        height: 96px;
+        width: 150px;
+        height: 150px;
     }
     &--before {
       margin-right: 8px;
     }
     &--after {
         margin-left: 8px;
+    }
+    &--orange {
+        color: $brand-orange;
     }
 }

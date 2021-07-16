@@ -4,7 +4,7 @@
                     variation == 'primary' ? 'c-btn--primary' : variation == 'secondary' ? 'c-btn--secondary' : ''
                 ]"
                 :href="href">
-        <span>{{ text }}</span>
+        {{ text }}
         <slot></slot>
     </a>
 </template>

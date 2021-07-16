@@ -20,7 +20,7 @@ img {
   height: 100%;
   object-fit:cover;
   display: block;
-  min-height: 350px;
+  height: calc(100vh - 109px);
 }
 
 .prev, .next {
@@ -51,5 +51,6 @@ img {
 }
 
 .c-slider {
+  height: calc(100vh - 109px);
   position: relative;
 }

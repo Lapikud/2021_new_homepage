@@ -2,6 +2,7 @@
     <div>
         <v-header />
         <router-view :key="$route.fullPath" />
+        <v-footer />
     </div>
 </template>
 <script src="./App.js"></script>
