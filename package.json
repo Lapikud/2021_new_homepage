@@ -17,14 +17,15 @@
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
     "node-sass": "^5.0.0",
+    "postcss": "^8.0.0",
     "sass-loader": "^10.1.1",
     "vue": "^3.0.0",
     "vue-axios": "^3.2.4",
+    "vue-material-design-icons": "^4.12.1",
     "vue-router": "^4.0.0-0",
     "vue-slick-carousel": "^1.0.6",
     "vuex": "^4.0.0-0",
-    "vuex-router-sync": "^5.0.0",
-    "postcss": "^8.0.0"
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "@vue/cli": "^4.5.11",

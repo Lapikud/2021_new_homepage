@@ -8,13 +8,15 @@
 
 .u-h1 {
     @include t1;
-    color: $white;
 }
 
 .u-h2 {
     @include t2;
-    color: $white;
     @include mq($screen-m, max) {
         @include t4;
     }
+}
+
+.u-h3 {
+    @include t3;
 }
