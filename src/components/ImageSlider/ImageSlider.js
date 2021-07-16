@@ -18,11 +18,12 @@ export default {
   mounted () {
     /* this.imageArray = this.images.map(({ filename }) => '@/assets/images/slideshow/' + filename) */
     this.imageArray = this.importAll(require.context('@/assets/images/slideshow/', true, /\.jpg|gif|png|svg$/))
+    this.startSlide()
   },
 
   methods: {
     startSlide: function () {
-      this.timer = setInterval(this.next, 3000)
+      this.timer = setInterval(this.next, 5000)
     },
 
     next: function () {
