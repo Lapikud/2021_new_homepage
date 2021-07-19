@@ -9,19 +9,23 @@
     text-align: center;
     transition: $default-transition;
     cursor: pointer;
+
     &--primary {
         background: $brand-orange;
         color: $white;
+
         &:hover {
             background: transparent;
             color: $brand-orange;
             border-color: $brand-orange;
         }
     }
+
     &--secondary {
         background: transparent;
         color: $white;
         border-color: $white;
+
         &:hover {
             border-color: $brand-orange;
             color: $brand-orange;
