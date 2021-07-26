@@ -1,18 +1,14 @@
 export default {
   name: 'Accordion',
 
-  props: { contentArray: Array },
+  props: { title: { type: String, default: ' ' }, open: { type: Boolean, default: false }, list: { type: Boolean, default: false } },
   data () {
-    return { contents: this.contentArray }
+    return { openState: this.open }
   },
   methods: {
-    toggleOpen: function (index) {
-      this.contents = this.contents.map((content, i) => {
-        if (index === i) {
-          content.open = !content.open
-        }
-        return content
-      })
+    toggleOpen: function () {
+      this.openState = !this.openState
+      return true
     }
   }
 }

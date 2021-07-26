@@ -1,26 +1,32 @@
 import Accordion from '@/components/Accordion/Accordion.vue'
+import Statutues from '@/components/Statutues/Statutues.vue'
+import { junior, senior, graduates } from '@/assets/data/members.yml'
+import { pastmanagement } from '@/assets/data/past_management.yml'
 
 export default {
   name: 'About Us',
-  components: { 'v-accordion': Accordion },
+  components: { 'v-accordion': Accordion, 'v-statutues': Statutues },
 
   data: () => ({
-    contents: [
-      {
-        question: 'Who is the best Superhero?',
-        answer: "I'm not sure but we love him 3000",
-        open: false
-      },
-      {
-        question: "What is Goku's form called with White Hair?",
-        answer: 'Mastered Ultra Instinct',
-        open: false
-      },
-      {
-        question: 'Have you liked & subscried yet?',
-        answer: 'YES',
-        open: false
-      }
-    ]
+    members: {
+      junior: { content: junior, title: 'MTÜ Lapikud noorliikmed' },
+      senior: { content: senior, title: 'MTÜ Lapikud vanemliikmed' },
+      graduates: { content: graduates, title: 'Lapikute vilistlased' }
+    },
+    pastmanagement: pastmanagement
+    // contents: [
+    //   {
+    //     title: 'Who is the best Superhero?',
+    //     open: false
+    //   },
+    //   {
+    //     question: "What is Goku's form called with White Hair?",
+    //     open: false
+    //   },
+    //   {
+    //     question: 'Have you liked & subscried yet?',
+    //     open: true
+    //   }
+    // ]
   })
 }

@@ -21,6 +21,7 @@
     "sass-loader": "^10.1.1",
     "vue": "^3.0.0",
     "vue-axios": "^3.2.4",
+    "vue-cli-plugin-yaml": "^1.0.2",
     "vue-material-design-icons": "^4.12.1",
     "vue-router": "^4.0.0-0",
     "vue-slick-carousel": "^1.0.6",
