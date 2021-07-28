@@ -1,0 +1,21 @@
+.c-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10%;
+
+    &--mentor {
+        grid-template-columns: 2fr 1fr;
+        border: 2px solid $white;
+        border-right: 0px;
+        border-left: 0px;
+        // padding: 5px;
+        justify-items: right;
+        align-items: center;
+    }
+}
+
+img {
+    max-width: 100%;
+    // border: 2px solid $brand-orange;
+}
