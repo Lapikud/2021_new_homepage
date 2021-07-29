@@ -1,4 +1,16 @@
 <template>
-    <div></div>
+  <section class="c-section c-section--white">
+    <div class="l-container">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfTFA_yoUl6dVRVQ1ha75gQxe8giijMfSqJK45yRQeLPOVh3w/viewform?embedded=true"
+        width="100%"
+        height="850"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Laadimine...</iframe
+      >
+    </div>
+  </section>
 </template>
 <script src="./JoinForm.js"></script>

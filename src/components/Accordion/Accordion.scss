@@ -1,0 +1,42 @@
+.c-accordion-item {
+    // display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 16px 24px;
+    border-radius: 8px;
+    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: $white;
+
+    .header {
+        // position: relative;
+        cursor: pointer;
+        color: $brand-black;
+        font-size: 20px;
+        transition: $default-transition;
+
+    }
+
+    .content {
+        color: $brand-black;
+        font-size: 18px;
+        // opacity: 0;
+        max-height: 0px;
+        overflow-y: hidden;
+        transition: $default-transition;
+
+        &.list {
+            // columns: 4;
+        }
+    }
+
+    &.open {
+        .header {
+            margin-bottom: 15px;
+        }
+
+        .content {
+            // opacity: 1;
+            max-height: fit-content;
+        }
+    }
+}

@@ -1,4 +1,4 @@
 <template>
-    <div></div>
+  <v-map />
 </template>
 <script src="./Helpdesk.js"></script>
