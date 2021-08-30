@@ -1,6 +1,6 @@
 # 2021_new_homepage
 
-Only push the contents of the dist folder here! For this, first run 
+This is where the page is served from. Only push the contents of the dist folder here! For this, first run 
 
 ```
 npm run build
