@@ -39,3 +39,16 @@ npm run lint
 ```
 npm run build
 ```
+
+The page is served from the master branch. Only push the contents of the dist folder there! For this, first run 
+
+```
+npm run build
+```
+
+commit the changes and run 
+```
+git subtree push --prefix dist origin master
+```
+
+PS! index.html is renamed to 404.html as a workaround for github pages being unable to handle vue routing in history mode.
