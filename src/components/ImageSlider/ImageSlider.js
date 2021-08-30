@@ -3,7 +3,8 @@ import Icon from '@/components/Icon/Icon.vue'
 export default {
   name: 'Slider',
   props: {
-    height: String
+    height: String,
+    images: Array
   },
   components: {
     'v-icon': Icon
@@ -12,12 +13,12 @@ export default {
     return {
       timer: null,
       currentIndex: 0,
-      imageArray: []
+      imageArray: this.images
     }
   },
   mounted () {
     /* this.imageArray = this.images.map(({ filename }) => '@/assets/images/slideshow/' + filename) */
-    this.imageArray = this.importAll(require.context('@/assets/images/slideshow/', true, /\.jpg|gif|png|svg$/))
+    this.imageArray = this.images
     this.startSlide()
   },
 

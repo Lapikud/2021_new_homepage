@@ -1,0 +1,60 @@
+.c-services {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.c-helpdesk {
+    gap: 60px;
+    justify-content: space-between;
+    &__column {
+        flex: 1;
+    }
+    &__logo {
+        width: 500px;
+    }
+    &__header {
+        gap: 60px;
+        justify-content: space-between;
+        &--right {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    @include mq($screen-l, max) {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.c-pricing {
+    width: 100%;
+    margin-bottom: 20px;
+    &__cell {
+        padding: 0 40px 4px 0;
+        border: 1px solid transparent;
+        &--head {
+            border-bottom: 2px solid $brand-black;
+            font-weight: 700;
+        }
+        &:last-child {
+            text-align: right;
+            padding: 0 0 4px 40px;
+        }
+    }
+}
+
+.c-contact {
+    gap: 60px;
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    &__column {
+        flex: 1;
+    }
+}
+
+.orange {
+    color: $brand-orange;
+}

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-image-slider> </v-image-slider>
+        <v-image-slider :images="importAll(require.context(`@/assets/images/slideshow/`, true, /\.jpg|gif|png|svg$/))"/>
         <section class="c-section c-section--white c-section--center">
             <div class="l-container">
                 <div class="c-section__row">

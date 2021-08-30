@@ -5,6 +5,11 @@
                 <img class="c-header__logo" src='@/assets/images/logo.svg'/>
             </router-link>
             <ul class="c-menu">
+                <li class="c-menu__link-container u-flex s-only">
+                    <router-link :to="{ path: `/` }">
+                        <img class="c-header__logo" src='@/assets/images/logo-orange.svg'/>
+                    </router-link>
+                </li>
                 <li
                     class="c-menu__link-container u-flex"
                     v-for="tab in tabLinks"

@@ -11,4 +11,8 @@
     &__btn {
         margin-top: auto;
     }
+    @include mq($screen-m, max) {
+        flex-direction: column;
+        gap: 40px;
+    }
 }

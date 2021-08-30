@@ -1,0 +1,36 @@
+# Management contact info
+management:
+  - name: Ingrid-Regina Vähi
+    photo: coming-soon.jpg
+    role: Juhatuse liige
+    subrole: Ürituste valdkonna juht
+    email: ingrid@lapikud.ee
+    phone: +372 5349 4857
+
+  - name: Kristjan Kõiv
+    photo: coming-soon.jpg
+    role: Juhatuse liige
+    subrole: Tarkvara valdkonna juht
+    email: kristjan.koiv@lapikud.ee
+    phone: +372 5346 9875
+
+  - name: Carina Ruut
+    photo: coming-soon.jpg
+    role: Juhatuse esimees
+    subrole: Meie suur juht
+    email: carina.ruut@lapikud.ee
+    phone: +372 5552 5897
+
+  - name: Marcus Pruks
+    photo: coming-soon.jpg
+    role: Juhatuse liige
+    subrole: Turunduse valdkonna juht
+    email: marcus.pruks@lapikud.ee
+    phone: +372 5301 5490
+
+  - name: Andrei Gužovski
+    photo: andrei_guzovski.jpg
+    role: Juhatuse liige
+    subrole: Helpdeski juht
+    email: andrei.guzovski@lapikud.ee
+    phone: +372 5527 100

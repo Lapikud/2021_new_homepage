@@ -1,0 +1,20 @@
+.c-management {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 16px;;
+    flex-wrap: wrap;
+    &__img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    &__row {
+        margin-bottom: 20px;
+    }
+}
+
+.c-about {
+    &__intro {
+        margin-bottom: 40px;
+    }
+}

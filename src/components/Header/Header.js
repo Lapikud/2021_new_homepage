@@ -20,10 +20,6 @@ export default {
         route: '/helpdesk'
       },
       {
-        tab: 'Blogi',
-        route: '/blogi'
-      },
-      {
         tab: 'Lapikutest',
         route: '/lapikutest'
       },

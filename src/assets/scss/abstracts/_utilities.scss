@@ -2,8 +2,24 @@
     display: flex;
 }
 
+.u-justify-between {
+    justify-content: space-between;
+}
+
 .u-inline-flex {
     display: inline-flex;
+}
+
+.u-mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.u-mb-1 {
+    margin-bottom: 20px !important;
+}
+
+.u-mb-2 {
+    margin-bottom: 30px !important;
 }
 
 .u-h1 {
@@ -19,4 +35,18 @@
 
 .u-h3 {
     @include t3;
+}
+
+.u-h4 {
+    @include t4;
+}
+
+.u-h5 {
+    @include t5;
+}
+
+.s-only {
+    @include mq($screen-m, min) {
+        display: none;
+    }
 }

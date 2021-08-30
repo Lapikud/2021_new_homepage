@@ -29,4 +29,19 @@
             color: $white;
         }
     }
+    @include mq($screen-m, max) {
+        &__top {
+            flex-direction: column;
+            gap: 30px;
+        }
+        &__right{
+            text-align: left;
+        }
+        &__bottom {
+            text-align: left;
+        }
+        &__social {
+            padding: 0;
+        }
+    }
 }

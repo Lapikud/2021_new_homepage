@@ -1,0 +1,99 @@
+# Our work
+#
+ourwork:
+  - title: MTÜ Lapikud veebileht
+    photo: logo.svg
+    url:
+    description: Lapikute enda veebileht Vue.js raamistikul.
+
+  - title: Lühikese Jala Galerii epood
+    photo: lyhikesejalagalerii.png
+    url: https://lyhikesejalagalerii.com/
+    description: Täisfunktsionaalne veebipood Shopify põhjal.
+
+  - title: Tallinna Tehnikaülikooli Muuseumi eksponaadid
+    photo: ttu_muusem_placeholder.jpg
+    url:
+    description: Töö valmis september 2018.
+
+  - title: ENLi koduleht
+    photo: eesti_noorteühenduste_liit.jpg
+    url: http://enl.ee/
+    description: Tegime Eesti Noorteühenduste Liidule uue landing lehe, samuti tegime pluginatega seotud parandusi.
+
+  # TODO site is gone, need pics
+  #- title: Koduleht firmale tuumfilm
+  #  photo: kertult saab pilte küsida nkn
+  #  url:
+  #  description: Valmistasime väiksele filmi ja montaaži firmale kodulehe
+
+  # TODO get pics
+  #- title: Hitmani mäng tudengipäevadel
+  #  photo: edgarilt saab prolly, kirjutasin
+  #  url:
+  #  description: Tartus toimus IRL Hitmani mäng mille veebirakenduse me valmistasime
+
+  - title: Taksod.net Android äpp
+    photo: taksod-net-android.jpg
+    url: https://play.google.com/store/apps/details?id=net.taksod.android
+    description: Androidi äpp, milles on võimalik taksofirma otsida ning läbi äpi kohe helistada ja takso tellida.
+
+  - title: Taksod.net iOS äpp
+    photo: taksod-net-ios.jpg
+    url: https://itunes.apple.com/ee/app/taksod-net/id1230208509?mt=8
+    description: iOS äpp, milles on võimalik taksofirma otsida ning läbi äpi kohe helistada ja takso tellida.
+
+  - title: Osaluskogud Eestis
+    photo: osaluskogud_eestis.jpg
+    url: http://noortekogud.ee/
+    description: Teostasime lehel täiendusi.
+
+  - title: Tallinna Tehnikaülikooli Puhkpilliorkester
+    photo: orkester.jpg
+    url: http://orkester.ee
+    description: Andsime lehele kaasaegse väljanägemise.
+
+  - title: Tallinna Tehnikaülikooli Studentlife
+    photo: studentlife.jpg
+    url: http://studentlife.ee
+    description: Arendasime WordPressi platvormil kliendi ettenägemise järgi uue keskkonna, kus tudengid saavad blogipostitusi kirjutada/lugeda ning ka tulevaste ürituste ja organisatsioonide tegevustega kursis olla. Aegajalt viime lehel ka läbi uuendustöid.
+
+  - title: Eesti Üliõpilasesinduse Liit
+    photo: sallivkool.jpg
+    url: http://sallivkool.ee/
+    description:
+
+  - title: ISIC
+    photo: isic.jpg
+    url: http://www.isic.ee
+    description: WordPressi platvormil arendatud veebileht, kust leiab kõik vajaliku info ISIC kaardi kohta (soodustused, tellimine jpm). Teostame lehel ka uuendusi.
+
+  - title: Eesti Jalgratta Virtuaalmuuseum
+    photo: jalgrattaveeb.jpg
+    url: http://www.velomuseum.ee/
+    description:
+
+  - title: Meremeeste tööotsingu portaal
+    photo: nauticalcrew.jpg
+    url:
+    description: Tänaseks on portaali omanikud selle sulgenud.
+
+  - title: Võti Tulevikku 2013 infoveeb
+    photo: votitulevikku.jpg
+    url:
+    description:
+
+  - title: Ukseproff
+    photo: ukseproff.jpg
+    url: http://www.ukseproff.ee/
+    description:
+
+  - title: Nõmme Tenniseklubi koduleht
+    photo: nommetenniseklubi.jpg
+    url: http://www.nommetennis.ee/
+    description:
+
+  - title: Sporditrennid.ee trenni otsinguportaal
+    photo: sporditrennid.jpg
+    url:
+    description: Tänaseks on portaali omanikud selle sulgenud.

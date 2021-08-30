@@ -1,0 +1,48 @@
+.c-masonry {
+    &__item {
+        position: relative;
+        &:hover {
+            .c-masonry__overlay {
+                display: flex;
+            }
+        }
+    }
+    &__overlay {
+        padding: 16px;
+        background: rgba($brand-black, 0.7);
+        transition: $default-transition;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background: $white;
+    }
+    &__description {
+        line-height: 1.5;
+    }
+    .masonry-column {
+        max-width: 400px;
+        position: relative;
+    }
+    @include mq($screen-m, max) {
+        &__overlay {
+            padding: 0;
+            display: flex;
+            position: relative;
+            text-align: left;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    }
+}

@@ -27,4 +27,12 @@
         width: 70%;
         margin: 0 auto;
     }
+    @include mq($screen-m, max) {
+        &__row {
+            width: 100%;
+        }
+        &--center {
+            text-align: left;
+        }
+    }
 }

@@ -9,7 +9,7 @@
                         <li>
                             Aadress:
                             <a
-                                class="c-link c-link--underline"
+                                class="c-link c-link--underline c-link--white"
                                 href="https://www.google.com/maps/place/Akadeemia+tee+5,+12616+Tallinn/@59.3963268,24.6689322,21z/data=!4m5!3m4!1s0x469295aa034a497b:0xb410f84995bb7f6f!8m2!3d59.3962881!4d24.6687503"
                                 target="_blank"
                                 rel="nofollow"
@@ -21,7 +21,7 @@
                         <li>
                             E-post:
                             <a
-                                class="c-link c-link--underline"
+                                class="c-link c-link--underline c-link--white"
                                 href="mailto:lapikud@lapikud.ee"
                             >
                                 lapikud@lapikud.ee
@@ -30,7 +30,7 @@
                         <li>
                             Telefon:
                             <a
-                                class="c-link c-link--underline"
+                                class="c-link c-link--underline c-link--white"
                                 href="tel:+37258160799"
                             >
                                 +372 58 160 799
@@ -39,7 +39,7 @@
                         <li>
                             Messenger:
                             <a
-                            class="c-link c-link--underline"
+                            class="c-link c-link--underline c-link--white"
                             href="https://m.me/Lapikud"
                             target="_blank"
                             rel="nofollow"

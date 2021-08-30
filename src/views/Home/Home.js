@@ -16,5 +16,10 @@ export default {
     'v-image-slider': ImageSlider,
     'v-icon-section': IconSection,
     'v-partners': Partners
+  },
+  methods: {
+    importAll: function (r) {
+      return r.keys().map(r)
+    }
   }
 }

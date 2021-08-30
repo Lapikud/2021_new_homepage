@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div id="fb-root"></div>
         <v-header />
         <router-view :key="$route.fullPath" />
         <v-footer />

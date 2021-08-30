@@ -1,0 +1,13 @@
+.c-contact {
+    justify-content: space-between;
+    &__logo {
+        width: 300px;
+    }
+}
+
+.c-management {
+    flex-wrap: wrap;
+    &__manager {
+        text-align: center;
+    }
+}

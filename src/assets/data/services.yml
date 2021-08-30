@@ -1,0 +1,55 @@
+serviceDescription:
+  - description: Arvuti riistvara diagnostika ja remont
+  - description: Arvuti riistvara hooldus
+  - description: Tarkvara diagnostika ja seadistamine
+  - description: Tarkvara paigaldamine
+  - description: Muu elektroonika parandamine
+
+services:
+  - name: Arvuti diagnostika
+    amount: 15 min
+    price: tasuta
+
+  - name: Arvuti diagnostika (alates 15 min+)
+    amount: tk
+    price: 20€
+
+  - name: Detaili paigaldamine arvutisse
+    amount: tk
+    price: 10-15 €
+
+  - name: Sülearvuti tolmupuhastus + termopasta
+    amount: tk
+    price: 10-20 €
+
+  - name: Sülearvuti ekraani paigaldus
+    amount: tk
+    price: 15 €
+
+  - name: Arvuti komplekteerimine
+    amount: tk
+    price: 20 €
+
+  - name: Tarkvara hooldustöö ja paigaldamine
+    amount: tk
+    price: 10-15 €
+
+  - name: Muu elektroonika parandus
+    amount: tk
+    price: 10-50 €
+
+  - name: Andmete taastamine
+    amount: tk
+    price: 10-30 €
+
+  - name: Nutiseadmete tarkvarahooldus
+    amount: tk
+    price: 15 €
+
+  - name: Operatsioonisüsteemi taaspaigaldus
+    amount: tk
+    price: 15 €
+
+  - name: Nutitelefoni klaasi/display/aku vahetus
+    amount: tk
+    price: 15-30 €
