@@ -40,6 +40,7 @@ npm run lint
 npm run build
 ```
 
+## Deploy
 The page is served from the master branch. Only push the contents of the dist folder there! For this, first run 
 
 ```
