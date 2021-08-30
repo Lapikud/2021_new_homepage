@@ -10,3 +10,5 @@ commit the changes and run
 ```
 git subtree push --prefix dist origin master
 ```
+
+PS! index.html is renamed to 404.html as a workaround for github pages being unable to handle vue routing in history mode.
