@@ -1,5 +1,7 @@
 body {
     background-color: $brand-black;
+    max-width: $screen-xl;
+    margin: 0 auto;
 }
 
 * {
