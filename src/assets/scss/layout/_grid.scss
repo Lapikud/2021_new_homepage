@@ -13,9 +13,14 @@
 .c-section {
     padding: 60px 0;
     color: $white;
+    background-color: $brand-black;
     &--white {
         background: $white;
         color: $brand-black;
+    }
+    &--orange {
+        background: $brand-orange;
+        color: $white;
     }
     &--center {
         text-align: center;
